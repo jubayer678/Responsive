@@ -1,4 +1,4 @@
-@media (768px < width < 991px){
+@media (766px < width < 991px){
 	.for-width{
 		width:94%;
 	}
@@ -46,10 +46,144 @@
 
 
 /* ---------------------------------------- */
-
-@media ( 485px < width < 768px ){
 	
-	.for-width{
+	@media(width <767px) {
+	body{text-align:center;}
+	nav .logo { padding-top: 8px }
+	nav .menu-toggle { display: inline-block }
+	nav .menu { display: none; clear: both }
+	nav .menu > ul { float: none }
+	nav .menu li { width: 100%; border: 0 }
+	nav .menu li:last-child { margin: 0 0 15px 0 }
+	nav .menu li a,
+	nav .open-submenu {
+		display: block;
+		background: #62b38d;
+		padding: 10px;
+		margin: 2px 0 0 0
+	}
+	nav .menu ul ul {
+		position: static;
+		background: transparent;
+		display:none
+		
+	}
+	nav .menu ul ul a { background: transparent }
+	nav .menu ul ul a:hover { background: #6CC49B }
+	nav .logo {
+		width: 100px;
+		height: 80px;
+	}
+	nav .menu-toggle {
+	margin: 25px 0;
+	}
+	
+	nav .menu {
+	    padding-top: 5px;
+	}
+	
+	nav .logo .name {
+	  font-family: liSrf;
+	  font-size: 2.2rem;
+	  color: #c4f7ad;
+	  margin-left: 0;
+	  margin-top: 0;
+	}
+	
+	nav{
+		width:100%;
+	}
+	.slider-container{width:100%;}
+	
+	
+	
+	
+	nav .logo {
+  height: 60px;
+}
+	
+
+	
+	
+	
+	
+	
+	
+	body{
+		background:green;}
+		
+		
+		
+		.slider-container .logo{
+			display:none;
+		}
+		
+			
+	nav .icon-bar {
+	    background-color: #fff;
+	    display: block;
+	    width: 12px;
+	    height: 1.5px;
+	}
+	
+	nav .logo .name {
+	    font-size: 2rem;
+	 margin-left: -12px;
+
+	}
+	
+	nav .logo .name::first-letter {
+	    font-size: 2.4rem;
+	  
+	}
+	nav {
+	    height: 60px;
+	}
+	
+	
+	nav .menu-toggle {
+	    margin: 12px 0;
+	}
+		
+	.scroll-left-wrapper {
+  border-bottom: 3px solid #999;
+  overflow: hidden;
+}
+
+.scroll-left marquee {
+  font-size: 1.4rem;
+  margin-top:5px;
+}
+
+
+
+
+	.indicators button{
+		width:12px;
+		height:12px;
+	}
+	
+	.indicators{
+		bottom:10px;
+	}
+
+
+	
+		
+	.about-section h3 {
+	
+	font-size: 2.2rem;
+	}
+	.about-purpose summary {
+	  font-family: SutonnyMJ Regular;
+	  font-size: 2.2rem;
+	  line-height: 200%;
+	}
+	
+	
+	
+	
+		.for-width{
 		width:100%;
 	}
 	
@@ -210,83 +344,57 @@
 		font-size:2.8rem;
 	}
 	
-	body{
-		background:blue;}
+	.video-gallery .video {
+  height: 350px;
 
 }
 	
 	
-@media(width <767px) {
-	body{text-align:center;}
-	nav .logo { padding-top: 8px }
-	nav .menu-toggle { display: inline-block }
-	nav .menu { display: none; clear: both }
-	nav .menu > ul { float: none }
-	nav .menu li { width: 100%; border: 0 }
-	nav .menu li:last-child { margin: 0 0 15px 0 }
-	nav .menu li a,
-	nav .open-submenu {
-		display: block;
-		background: #62b38d;
-		padding: 10px;
-		margin: 2px 0 0 0
-	}
-	nav .menu ul ul {
-		position: static;
-		background: transparent;
-		display:none
-		
-	}
-	nav .menu ul ul a { background: transparent }
-	nav .menu ul ul a:hover { background: #6CC49B }
-	nav .logo {
-		width: 100px;
-		height: 80px;
-	}
-	nav .menu-toggle {
-	margin: 25px 0;
-	}
-	
-	nav .menu {
-    padding-top: 5px;
-	}
-	
-	nav .logo .name {
-	  font-family: liSrf;
-	  font-size: 2.2rem;
-	  color: #c4f7ad;
-	  margin-left: 0;
-	  margin-top: 0;
-	}
-
-	nav{
-		width:100%;
-	}
-	.slider-container{width:100%;}
 	
 	
-	body{
-		background:green;}
-		
-	.about-section h3 {
-
-	font-size: 2.2rem;
-}
-	.about-purpose summary {
-  font-family: SutonnyMJ Regular;
-  font-size: 2.2rem;
-  line-height: 200%;
+.important-notice{
+	margin-top:40px;
 }
 
 
+.visitor-wrapper{
+	margin-top:40px;
+}
+.feature-wrap{
+	margin-top:40px;
+}
+.gallery-wrapper{
+	margin-top:40px;
+}
 
-
-
-
-
+.container-wrapper{
+	margin-bottom:40px;
+}
+.feature-wrap{
+	margin-bottom:40px;
+}
+.feature .photo{
+	margin-bottom:30px;
+}
+.video-gallery .video{
+	margin-bottom:30px;
+}
+#contact-wrapper{
+	padding-top:40px;
+}
+.gallery-wrapper{
+	padding-top:40px;
+}
 
 	
-}	
+	.important-notice a {
+  font-size: 1.4rem;
+}
+	
+	
+
+	
+} 	
 	
 @media (width < 566px){
 	
@@ -388,12 +496,16 @@
 	}
 
 	body{
-		background:skyblue;}
+		background:tomato;}
+
 		
 		
-		.slider-container .logo {
-    display:none;
+			nav .logo {
+  height: 38px;
 }
+
+
+
 		
 		
 .address article p{
@@ -532,13 +644,71 @@
   
 }
 	nav {
-    height: 40px;
+    height: 41px;
 }
 	
 	
 	nav .menu-toggle {
     margin: 3px 0;
 }
+
+
+
+
+
+	
+.important-notice{
+	margin-top:20px;
+}
+
+
+.visitor-wrapper{
+	margin-top:10px;
+}
+.feature-wrap{
+	margin-top:10px;
+}
+.counter-wrap{
+	margin:10px auto;
+}
+.gallery-wrapper{
+	margin-top:10px;
+}
+
+.container-wrapper{
+	margin:30px auto;
+}
+.feature-wrap{
+	margin-bottom:10px;
+}
+.feature .photo{
+	margin-bottom:10px;
+}
+.video-gallery .video{
+	
+	margin:10px auto;
+}
+.video-gallery {
+    margin: 20px auto;
+}
+
+#contact-wrapper{
+	padding-top:10px;
+}
+.gallery-wrapper{
+	padding-top:10px;
+}
+
+	.upper-footer-wrapper {
+    background: #999;
+    padding: 4px 4px 30px 4px;
+}
+
+
+
+
+
+
 
 
 
@@ -580,7 +750,7 @@
 	}
 
 	.counter-box h3{
-		font-size:2rem !important;
+		font-size:2rem;
 	}
 
 
@@ -609,9 +779,6 @@
 		
 	}
 
-	.slider-container .logo{
-		display:none;
-	}
 
 	.contact-with article{
 		width:100%;
@@ -680,21 +847,91 @@
 	}
 		
 	.card-body p {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
 }
 		
 	.card-body .qout {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
 	}	
+	
+	.indicators button{
+		width:8px;
+		height:8px;
+	}
+	
+	.indicators{
+		bottom:10px;
+	}
+	
+	.important-notice a {
+  font-size: 1.4rem;
+}
+
+
+
+	
+.important-notice{
+	margin-top:20px;
+}
+
+
+.visitor-wrapper{
+	margin-top:10px;
+}
+.feature-wrap{
+	margin-top:10px;
+}
+.counter-wrap{
+	margin:10px auto;
+}
+.gallery-wrapper{
+	margin-top:10px;
+}
+
+.container-wrapper{
+	margin:30px auto;
+}
+.feature-wrap{
+	margin-bottom:10px;
+}
+.feature .photo{
+	margin-bottom:10px;
+}
+.video-gallery .video{
+	
+	margin:10px auto;
+}
+.video-gallery {
+    margin: 20px auto;
+}
+
+#contact-wrapper{
+	padding-top:10px;
+}
+.gallery-wrapper{
+	padding-top:10px;
+}
+
+	.upper-footer-wrapper {
+    background: #999;
+    padding: 4px 4px 30px 4px;
+}
+
+
+
+
+
+
+
+
+
 
 }
 
 
 @media(width < 420px){
 	
-	.slider-container .logo{
-		display:none;
-	}
+	body{background:pink;}
 		
 
 	.visitor p{
@@ -772,6 +1009,22 @@
 	body{
 		background:#000;
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	.notice-box{
+		height:200px;
+	}
+	
 	
 	
 	.visitor p{
@@ -867,6 +1120,7 @@
 	
 	.counter-box {
 		margin-bottom:10px;
+		height:120px;
 	}
 	
 	.gallery .photo {
@@ -939,6 +1193,76 @@
 	
 	
 	
+	
+	
+.important-notice{
+	margin-top:20px;
+}
+
+
+.visitor-wrapper{
+	margin-top:10px;
+}
+.feature-wrap{
+	margin-top:10px;
+}
+.counter-wrap{
+	margin:10px auto;
+}
+.gallery-wrapper{
+	margin-top:10px;
+}
+
+.container-wrapper{
+	margin:30px auto;
+}
+.feature-wrap{
+	margin-bottom:10px;
+}
+.feature .photo{
+	margin-bottom:10px;
+}
+.video-gallery .video{
+	
+	margin:10px auto;
+}
+.video-gallery {
+    margin: 20px auto;
+}
+
+#contact-wrapper{
+	padding-top:10px;
+}
+.gallery-wrapper{
+	padding-top:10px;
+}
+
+	.upper-footer-wrapper {
+    background: #999;
+    padding: 4px 4px 30px 4px;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
 
 
@@ -950,14 +1274,9 @@
 	
 
 	body{
-		background:pink;
+		background:skyblue;
 	}
 	
-	
-		.slider-container .logo{
-		display:none;
-	}
-		
 
 	.visitor p{
 		font-size:1.6rem;
@@ -1036,6 +1355,7 @@
 	
  	.counter-box{
 		margin-bottom:10px;
+		height:120px;
 	} 
 		
 		
@@ -1136,7 +1456,7 @@
 	
 	
 	.important-notice a{
-		font-size:1.6rem;
+		font-size:1.4rem;
 	}
 	
 	
@@ -1287,9 +1607,7 @@ body{text-align:center;}
 	
 	
 	
-		body{
-		background:#000;
-	}
+		
 	
 	
 	.visitor p{
@@ -1450,7 +1768,56 @@ body{text-align:center;}
 	
 
 	
+		nav .icon-bar {
+    background-color: #fff;
+    display: block;
+    width: 8px;
+    height: 1px;
+}
 	
+	nav .logo .name {
+    font-size: 1.2rem;
+	 margin-left: -42px;
+    margin-top: -3px;
+}
+	
+	nav .logo .name::first-letter {
+    font-size: 1.6rem;
+  
+}
+
+nav .logo{
+	height:0;
+}
+
+
+
+	nav {
+    height: 38;
+}
+	
+	
+	nav .menu-toggle {
+    margin: 2px 0;
+}
+	
+	.scroll-left {
+  height: 34px;
+	}
+	
+	
+	
+	
+	.notice-box{
+		height:200px;
+	}
+	
+	
+	footer p {
+  font-size: .8rem;
+  font-weight:300;
+  letter-spacing:1px;
+}
 	
 	
 	
