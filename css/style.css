@@ -188,11 +188,11 @@ nav .menu ul ul a:hover {
 	left:5px;
 	color:#f9e1f4;
 }
-.nivo-caption{
+/* .nivo-caption{
 	font-family:solaimanlipi !important;
 	font-size:2.6rem;
 	
-}
+} */
 
 
 .caption{
@@ -266,7 +266,7 @@ animation-name:color;
 .notice-box{
 	width:32%;
 	background:#333;
- 	height:320px;
+ 	height:250px;
 	overflow:scroll;
 	padding:4px;
 	list-style-type:none;
@@ -293,7 +293,7 @@ animation-name:color;
 
 .important-notice a{
 	text-decoration:none;
-	font-size:1.8rem;
+	font-size:1.6rem;
 	font-family:arial;
 	color:#ffe4e4;
 	padding:4px;
@@ -460,6 +460,7 @@ animation-name:color;
 .phone-icon{
 	display:flex;
 	justify-content:center;
+	align-items:center;
 	background: linear-gradient(#5fa399, #274c5a);
 	padding:4px;
 }
@@ -1143,15 +1144,7 @@ time[datetime]{
     }
 }
 
-/* @media(max-width:1048px) {
-	nav{
-		width:90%;
-	}
-	.slider-container{width:90%;}
-
-} */
-
-@media(max-width:600px) {
+/* @media(max-width:600px) {
 	body{text-align:center;}
 	nav .logo { padding-top: 8px }
 	nav .menu-toggle { display: inline-block }
@@ -1197,7 +1190,7 @@ time[datetime]{
 	.slider-container{width:100%;}
 	
 }
-
+ */
 
 
 
