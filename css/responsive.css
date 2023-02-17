@@ -1287,7 +1287,164 @@ body{text-align:center;}
 	
 	
 	
+		body{
+		background:#000;
+	}
 	
+	
+	.visitor p{
+		font-size:1.4rem;
+	}
+		
+	.visitor .single-box p {
+		font-size: 1rem;
+	}
+	
+	.scroll-left marquee {
+		font-size: 1.6rem;
+	}
+	
+	
+	
+	.important-notice h1{
+		font-size:1.8rem;
+	}
+	
+	
+	.important-notice a{
+		font-size:1.4rem;
+	}
+	
+	
+	.counter-box h3{
+		font-size:2rem;
+	}
+	
+	.feature-wrap h1{
+		font-size:2rem;
+	}
+	
+	.feature-wrap h1 {
+		font-size:2rem;
+	}
+	
+	.feature-wrap h1 span{
+		font-size:2.2rem;
+	}
+	
+	.feature p span{
+		font-size:1.2rem;
+	}
+	.feature p{
+		font-size:1.4rem;
+	}
+	
+	
+	.visitor h1{
+		font-size:2rem;
+	}
+	
+	.visitor h1 span{
+		font-size:2.2rem;
+	}
+	
+	.gallery-wrapper h1{
+		font-size:2rem;
+	}
+	
+	.gallery-wrapper h1 span{
+		font-size:2.2rem;
+	}
+	
+	
+	.video-gallery h1 span{
+		font-size:2.2rem;
+	}
+	
+	.video-gallery h1{
+		font-size:2rem;
+	}
+	
+	.upper-footer-wrapper h1{
+		font-size:2.2rem;
+	}
+
+	.contact-with article a {
+    font-size: .8rem;
+}
+	
+	
+	
+	.visitor h4 {
+    font-size: 1.2rem;
+}
+	
+	.visitor .single-box p {
+    font-size: .8rem;
+}
+	
+	.counter-box {
+		margin-bottom:10px;
+	}
+	
+	.gallery .photo {
+    height: 160px;
+
+}
+	
+	
+	
+	.video-gallery .video {
+    height: 160px;
+
+}
+	
+	.phone-icon .img {
+    width: 14px;
+    height: 14px;
+}
+	
+	
+	.phone-icon p{
+	margin-top:2px;
+	margin-left:0;
+	letter-spacing:1.5px;
+	background:none;
+	color:red;
+	font-weight:bold;
+}
+	
+	
+	
+	
+	
+	
+	
+	nav .icon-bar {
+    background-color: #fff;
+    display: block;
+    width: 8px;
+    height: 1px;
+}
+	
+	nav .logo .name {
+    font-size: 1.2rem;
+	 margin-left: -42px;
+    margin-top: -3px;
+}
+	
+	nav .logo .name::first-letter {
+    font-size: 1.6rem;
+  
+}
+	nav {
+    height: 40px;
+}
+	
+	
+	nav .menu-toggle {
+    margin: 3px 0;
+}
 	
 	
 	
@@ -1298,4 +1455,4 @@ body{text-align:center;}
 	
 	
 	
-}  
+} 
