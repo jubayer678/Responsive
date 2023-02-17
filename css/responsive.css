@@ -1808,10 +1808,6 @@ nav .logo{
 	
 	
 	
-	.notice-box{
-		height:200px;
-	}
-	
 	
 	footer p {
   font-size: .8rem;
@@ -1819,6 +1815,14 @@ nav .logo{
   letter-spacing:1px;
 }
 	
+.slider-container .logo{
+	display:none;
+		}
+		
+.notice-box{
+	width:200px;
+	height:200px;
+	}
 	
 	
 	
